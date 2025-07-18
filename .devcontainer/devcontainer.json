@@ -4,7 +4,7 @@
   "name": "HTML, CSS, and JavaScript: Building the Web",
   "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
   "features": {
-    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/git:1": {}
   },
   "customizations": {
     "vscode": {
@@ -19,6 +19,6 @@
   },
   "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
   "postCreateCommand": "pip3 install mkdocs-material",
-  "postAttachCommand": "git pull --all",
+  "postAttachCommand": "git pull --all"
   // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
 }
