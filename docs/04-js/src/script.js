@@ -4,10 +4,6 @@ moved let inside of function */
 function dragElement(terrariumElement) {
     let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     terrariumElement.onpointerdown = pointerDrag; 
-}    
-
-dragElement(document.getElementById('plant1'));
-dragElement(document.getElementById('plant2'));
 
     function pointerDrag(e) {
         e.preventDefault();
@@ -32,6 +28,10 @@ dragElement(document.getElementById('plant2'));
         document.onpointerup = null;
         document.onpointermove = null;
     }
+  }
+
+dragElement(document.getElementById('plant1'));
+dragElement(document.getElementById('plant2'));
 
 document.querySelectorAll(".plant").forEach((plant) => {
   plant.onpointerdown = function(){
