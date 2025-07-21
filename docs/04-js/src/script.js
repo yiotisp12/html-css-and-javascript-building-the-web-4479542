@@ -1,12 +1,17 @@
 /*pos vars 1-4 stores initial&current positions of mouse
-1&2 stores change in cursor on X and Y 3 and 4 stores current position 
+1,2 stores change in cursor on X and Y 3,4 stores current position 
 moved let inside of function */
 function dragElement(terrariumElement) {
     let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-    terrariumElement.onpointerdown = pointerDrag;
+    terrariumElement.onpointerdown = pointerDrag; 
+}    
+
+dragElement(document.getElementById('plant1'));
+dragElement(document.getElementById('plant2'));
 
     function pointerDrag(e) {
         e.preventDefault();
+        console.log(e);
         pos3 = e.clientX;
         pos4 = e.clientY;
         document.onpointermove = elementDrag;
@@ -18,6 +23,7 @@ function dragElement(terrariumElement) {
         pos2 = pos4 - e.clientY;
         pos3 = e.clientX;
         pos4 = e.clientY;
+
         terrariumElement.style.top = (terrariumElement.offsetTop - pos2) + 'px';
         terrariumElement.style.left = (terrariumElement.offsetLeft - pos1) + 'px';
     }
@@ -26,10 +32,6 @@ function dragElement(terrariumElement) {
         document.onpointerup = null;
         document.onpointermove = null;
     }
-}
-
-dragElement(document.getElementById('plant1'));
-dragElement(document.getElementById('plant2'));
 
 document.querySelectorAll(".plant").forEach((plant) => {
   plant.onpointerdown = function(){
