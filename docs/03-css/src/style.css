@@ -1,5 +1,6 @@
 
 
+
 body {
 	font-family: helvetica, arial, sans-serif;
 }
@@ -9,18 +10,29 @@ h1 {
 	text-align: center;
 }
 
-/*
-#left-container {
-	left: 0px;
-}
-
-#right-container {
-	right: 0px;
-}
-
 .container {
 	background-color: #eee;
 	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+#left-container {
+	background-color: #eee;
+	width: 15%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+#right-container {
+	background-color: #eee;
+	width: 15%;
+	right: 0px;
 	top: 0px;
 	position: absolute;
 	height: 100%;
@@ -39,7 +51,12 @@ h1 {
 	max-height: 150%;
 	z-index: 2;
 }
-
+/*#left-container {
+	left: 0px;
+}
+#right-container {
+	right: 0px;
+}*/
 .jar-walls {
 	height: 80%;
 	width: 60%;
@@ -103,4 +120,4 @@ h1 {
 	position: absolute;
 	bottom: 45%;
 	left: 5%;
-} */
+} 
