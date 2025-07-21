@@ -1,7 +1,5 @@
 // inside script.js
 // all of our quotes
-
-
 const quotes = [
     'When you have eliminated the impossible, whatever remains, however improbable, must be the truth.',
     'There is nothing more deceptive than an obvious fact.',
@@ -10,6 +8,12 @@ const quotes = [
     'What one man can invent another can discover.',
     'Nothing clears up a case so much as stating it to another person.',
     'Education never ends, Watson. It is a series of lessons, with the greatest for the last.',
+    'Good soldiers follow orders. We do what needs to be done.',
+    'We are not droids we are men and we must be trusted to make the right decisions.',
+    'When have we ever followed orders.',
+    'THE CAVALRY HAS ARRIVED!',
+    'This is a delicate operation',
+    'For the honor of our brothers! For the Republic!',
 ];
 
 
