@@ -1,5 +1,7 @@
 let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-
+/*pos variables 1-4 stores initial and current positions of mouse
+1 and 2 stores the change in cursor position on X and Y
+3 and 4 stores current position */
 function dragElement(terrariumElement) {
     let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     terrariumElement.onpointerdown = pointerDrag;
