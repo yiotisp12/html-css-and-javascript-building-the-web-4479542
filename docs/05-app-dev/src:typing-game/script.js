@@ -12,8 +12,15 @@ const quotes = [
     'We are not droids we are men and we must be trusted to make the right decisions.',
     'When have we ever followed orders.',
     'THE CAVALRY HAS ARRIVED!',
-    'This is a delicate operation',
+    'This is a delicate operation.',
     'For the honor of our brothers! For the Republic!',
+    'Stop firing! We are shooting at our own men! They are clones!',
+    'Dont worry Wrecker you will beat him next time.',
+    'Lets finish what we started.',
+    'Dont even think about plan 99, Crosshair. We do this togehter.',
+    'If this is how soldiers are rewards for heroic acts, then every man in this battalion may face a similar fate.',
+    'I get to blow it up? The whole stinking thing? This is the happiest day of my life.',
+    'Wake up Wrecker. Clone Force 99 died with Tech. We are not that squad anymore.'
 ];
 
 
