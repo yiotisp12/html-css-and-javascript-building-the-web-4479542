@@ -17,10 +17,12 @@ const quotes = [
     'Stop firing! We are shooting at our own men! They are clones!',
     'Dont worry Wrecker you will beat him next time.',
     'Lets finish what we started.',
-    'Dont even think about plan 99, Crosshair. We do this togehter.',
+    'Dont even think about plan 99, Crosshair. We do this together.',
     'If this is how soldiers are rewards for heroic acts, then every man in this battalion may face a similar fate.',
     'I get to blow it up? The whole stinking thing? This is the happiest day of my life.',
-    'Wake up Wrecker. Clone Force 99 died with Tech. We are not that squad anymore.'
+    'Wake up Wrecker. Clone Force 99 died with Tech. We are not that squad anymore.',
+    'Bad Batch, plan 72. Shockwave.',
+    'We dont normally work with regs.',
 ];
 
 
